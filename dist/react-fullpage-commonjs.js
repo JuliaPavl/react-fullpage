@@ -109,7 +109,7 @@ var __WEBPACK_AMD_DEFINE_RESULT__;/*!
  *
  * Copyright (C) 2015 alvarotrigo.com - A project by Alvaro Trigo
  */
-(function( root, window, document, factory, undefined) {
+(function( root, document, factory, undefined) {
     if( true ) {
         // AMD. Register as an anonymous module.
         !(__WEBPACK_AMD_DEFINE_RESULT__ = (function() {
@@ -118,7 +118,7 @@ var __WEBPACK_AMD_DEFINE_RESULT__;/*!
         }).call(exports, __webpack_require__, exports, module),
 				__WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));
     } else {}
-}(this, window, document, function(window, document){
+}(this, document, function(window, document){
     'use strict';
 
     // keeping central set of classnames and selectors

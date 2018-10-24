@@ -5,7 +5,7 @@
  *
  * Copyright (C) 2018 alvarotrigo.com - A project by Alvaro Trigo & Michael Walker
  */
-(function webpackUniversalModuleDefinition(root, factory) {
+(function webpackUniversalModuleDefinition(factory) {
 	if(typeof exports === 'object' && typeof module === 'object')
 		module.exports = factory(require("react"));
 	else if(typeof define === 'function' && define.amd)
@@ -13,8 +13,8 @@
 	else if(typeof exports === 'object')
 		exports["ReactFullpage"] = factory(require("react"));
 	else
-		root["ReactFullpage"] = factory(root["react"]);
-})(window, function(__WEBPACK_EXTERNAL_MODULE__0__) {
+		window["ReactFullpage"] = factory(window["react"]);
+})(function(__WEBPACK_EXTERNAL_MODULE__0__) {
 return /******/ (function(modules) { // webpackBootstrap
 /******/ 	// The module cache
 /******/ 	var installedModules = {};
