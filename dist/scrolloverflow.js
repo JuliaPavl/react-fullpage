@@ -4,7 +4,7 @@
 * @license
 */
 /*! iScroll v5.2.0 ~ (c) 2008-2016 Matteo Spinelli ~ http://cubiq.org/license */
-(function (window, document, Math) {
+(function (document, Math) {
   var rAF = window.requestAnimationFrame  ||
       window.webkitRequestAnimationFrame  ||
       window.mozRequestAnimationFrame     ||
@@ -2127,7 +2127,7 @@
       window.IScroll = IScroll;
   }
 
-  })(window, document, Math);
+  })(document, Math);
 
 
   /*!
@@ -2137,7 +2137,7 @@
   *
   * Copyright (C) 2015 alvarotrigo.com - A project by Alvaro Trigo
   */
-  (function (window, document) {
+  (function (document) {
       window.fp_scrolloverflow = (function() {
 
           // check if IScroll is available in global scope
@@ -2563,4 +2563,4 @@
               iscrollHandler: iscrollHandler
           };
       })();
-  })(window, document);
+  })(document);
